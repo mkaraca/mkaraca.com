@@ -1,0 +1,26 @@
+:where(.wp-site-blocks *:focus){
+  outline-width:2px;
+  outline-style:solid
+}
+
+.wp-block-post-content li {
+margin-bottom: 15px;
+}
+
+.is-style-arrow-link .wp-element-button:after,
+.post-list a:after {
+content: "\2197";
+padding-inline-start: 0.25rem;
+vertical-align: middle;
+text-decoration: none;
+display: inline-block;
+}
+
+
+.is-style-arrow-trans .wp-element-button:after,
+.post-list a:after {
+content: "\21C4";
+padding-inline-start: 0.25rem;
+text-decoration: none;
+display: inline-block;
+}
