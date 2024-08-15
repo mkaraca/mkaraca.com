@@ -4,23 +4,31 @@
 }
 
 .wp-block-post-content li {
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .is-style-arrow-link .wp-element-button:after,
 .post-list a:after {
-content: "\2197";
-padding-inline-start: 0.25rem;
-vertical-align: middle;
-text-decoration: none;
-display: inline-block;
+  content: "\2197";
+  padding-inline-start: 0.25rem;
+  vertical-align: middle;
+  text-decoration: none;
+  display: inline-block;
 }
-
 
 .is-style-arrow-trans .wp-element-button:after,
 .post-list a:after {
-content: "\21C4";
-padding-inline-start: 0.25rem;
-text-decoration: none;
-display: inline-block;
+  content: "\21C4";
+  padding-inline-start: 0.25rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.text-decoration-none, 
+.text-decoration-none a {
+  text-decoration: none
+}
+
+.cursor-default {
+  cursor: default
 }
