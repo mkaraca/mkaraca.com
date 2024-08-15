@@ -10,9 +10,8 @@ function custom_document_title($title) {
 
         if (!empty($seo_title)) {
             $title['title'] = $seo_title;
+            unset($title['site']);
         }
-
-        unset($title['site']); 
     }
     return $title;
 }
